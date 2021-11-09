@@ -1,6 +1,6 @@
 {
   "name": "netlify-git-branch-deploy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Feature branch staging environments with netlfiy and git",
   "homepage": "https://github.com/mrloop/netlify-git-branch-deploy",
