@@ -10,7 +10,7 @@
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "netlify-git-branch-deploy": "./bin/run",
+    "netlify-git-branch-deploy": "./bin/run.js",
     "ngbd": "./bin/run.js"
   },
   "scripts": {
