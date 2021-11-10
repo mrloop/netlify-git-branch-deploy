@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: ['master']
+
+
+  # early issue detection: run CI weekly on Sundays
+  schedule:
+    - cron: "0 6 * * 0"
+
+jobs:
+  Test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 17.x]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Install Node
+        uses: volta-cli/action@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: Lint
+        run: yarn lint
+      - name: Browser Tests
+        run: yarn test

@@ -62,7 +62,7 @@ async function findOrCreateSite(name) {
 async function deploy(siteName, folder) {
   let { id } = await findOrCreateSite(siteName);
   let message = `Revision ${await revision()}`;
-  debug("Deploying", message);
+  debug("Deploying:", message);
   return await deploySite(netlify, id, folder, {
     message,
     filter: () => true,
@@ -80,7 +80,7 @@ async function checkDeploy(url, selector) {
 export async function deployAndCheck(siteName, cssSelectorToCheck) {
   let { deploy: d } = await deploy(siteName, "dist");
   await checkDeploy(d.url, cssSelectorToCheck);
-  debug("Deployed", d.url);
+  debug("Deployed:", d.url);
 }
 
 export async function run() {
