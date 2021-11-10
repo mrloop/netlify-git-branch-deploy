@@ -8,10 +8,14 @@ let str = crypto.randomBytes(10).toString("hex");
 
 module("for current branch", function () {
   test("deploy netlify site", async function (assert) {
-    let { stdout } = await execa("ngbd", [`test-${str}`, ".test-class"], {
-      env: { DEBUG: true },
-      cwd: "tests",
-    });
+    let { stdout } = await execa(
+      "../bin/run.js",
+      [`test-${str}`, ".test-class"],
+      {
+        env: { DEBUG: true },
+        cwd: "tests",
+      }
+    );
     let regex = new RegExp(`Site not found: test-${str}-.*`);
     assert.true(regex.test(stdout), `${regex.toString()}\n${stdout}`);
 
@@ -23,7 +27,7 @@ module("for current branch", function () {
   });
 
   test("delete netlify site", async function (assert) {
-    let { stdout } = await execa("ngbd", [`test-${str}`, "-d"], {
+    let { stdout } = await execa("../bin/run.js", [`test-${str}`, "-d"], {
       env: { DEBUG: true },
       cwd: "tests",
     });
