@@ -4,7 +4,7 @@ import QUnit from "qunit";
 
 let { module, test } = QUnit;
 
-let str = crypto.randomBytes(10).toString("hex");
+let str = crypto.randomBytes(2).toString("hex");
 
 module("for current branch", function () {
   test("deploy netlify site", async function (assert) {
