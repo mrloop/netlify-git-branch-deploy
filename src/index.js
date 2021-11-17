@@ -1,6 +1,6 @@
 import process from "process";
 import puppeteer from "puppeteer";
-import execa from "execa";
+import { execa } from "execa";
 import NetlifyApi from "netlify";
 import { deploySite } from "netlify-cli/src/utils/deploy/deploy-site.js";
 

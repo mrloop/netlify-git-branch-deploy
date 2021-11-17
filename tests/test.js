@@ -1,4 +1,4 @@
-import execa from "execa";
+import { execa } from "execa";
 import crypto from "crypto";
 import QUnit from "qunit";
 
