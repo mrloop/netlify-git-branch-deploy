@@ -19,7 +19,7 @@
     "test": "qunit tests/test.js"
   },
   "dependencies": {
-    "execa": "^5.1.1",
+    "execa": "^6.0.0",
     "netlify": "8.0.4",
     "netlify-cli": "6.14.16",
     "puppeteer": "11.0.0"
