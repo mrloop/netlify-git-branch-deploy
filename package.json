@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "execa": "^6.0.0",
-    "netlify": "8.0.4",
+    "netlify": "9.0.0",
     "netlify-cli": "7.1.0",
     "puppeteer": "11.0.0"
   },
