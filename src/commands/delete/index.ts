@@ -4,7 +4,7 @@ import Site, {nameDescription} from '../../site'
 export default class Delete extends Command {
   static description = 'Delete netlify staging subdomain for this branch';
 
-  static examples = ['$ netlify-git-branch-deploy delete my-site'];
+  static examples = ['$ netlify-git-branch delete my-site'];
 
   static args = [
     {name: 'name', description: nameDescription, required: true},

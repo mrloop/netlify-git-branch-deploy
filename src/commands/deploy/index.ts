@@ -4,7 +4,7 @@ import Site, {nameDescription} from '../../site'
 export default class Deploy extends Command {
   static description = 'Deploy branch to netlify staging subdomain';
 
-  static examples = ['$ netlify-git-branch-deploy deploy my-site --dir dist'];
+  static examples = ['$ netlify-git-branch deploy my-site --dir dist'];
 
   static args = [
     {name: 'name', description: nameDescription, required: true},
