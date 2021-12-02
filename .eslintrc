@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "oclif",
+    "oclif-typescript",
+    "plugin:json/recommended"
+  ],
+  "rules": {
+    "unicorn/no-abusive-eslint-disable": "warn"
+  }
+}
