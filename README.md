@@ -22,7 +22,7 @@ $ npm install -g netlify-git-branch
 $ netlify-git-branch COMMAND
 running command...
 $ netlify-git-branch (--version)
-netlify-git-branch/1.0.2 linux-x64 node-v16.13.0
+netlify-git-branch/2.0.0 linux-x64 node-v16.13.0
 $ netlify-git-branch --help [COMMAND]
 USAGE
   $ netlify-git-branch COMMAND
@@ -54,7 +54,7 @@ EXAMPLES
   $ netlify-git-branch delete my-site
 ```
 
-_See code: [src/commands/delete/index.ts](https://github.com/mrloop/netlify-git-branch/blob/v1.0.2/src/commands/delete/index.ts)_
+_See code: [src/commands/delete/index.ts](https://github.com/mrloop/netlify-git-branch/blob/v2.0.0/src/commands/delete/index.ts)_
 
 ## `netlify-git-branch deploy NAME`
 
@@ -79,7 +79,7 @@ EXAMPLES
   $ netlify-git-branch deploy my-site --dir dist
 ```
 
-_See code: [src/commands/deploy/index.ts](https://github.com/mrloop/netlify-git-branch/blob/v1.0.2/src/commands/deploy/index.ts)_
+_See code: [src/commands/deploy/index.ts](https://github.com/mrloop/netlify-git-branch/blob/v2.0.0/src/commands/deploy/index.ts)_
 
 ## `netlify-git-branch help [COMMAND]`
 
