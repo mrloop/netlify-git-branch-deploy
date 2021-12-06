@@ -15,7 +15,7 @@ describe('commands', () => {
 
   describe('deploy', () => {
     test
-    .stderr()
+    .stderr({print: true})
     .command(['deploy', name, '--dir', 'test/dist'])
     .it('runs deploy cmd', ctx => {
       let regex = new RegExp(`Site not found: test-${str}-.*`)
@@ -29,7 +29,7 @@ describe('commands', () => {
 
   describe('delete', () => {
     test
-    .stderr()
+    .stderr({print: true})
     .command(['delete', name])
     .it('runs delete cmd', ctx => {
       expect(ctx.stderr).to.match(new RegExp(`Site deleted: http://test-${str}-.*.netlify.app`))
