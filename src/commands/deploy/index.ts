@@ -21,7 +21,7 @@ export default class Deploy extends Command {
     }),
   };
 
-  async run() {
+  async run(): Promise<void> {
     const {args, flags} = await this.parse(Deploy)
     const site = new Site(args.name, this.debug)
     const url = await site.deploy(flags.dir)

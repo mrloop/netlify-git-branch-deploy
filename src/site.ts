@@ -46,7 +46,7 @@ export default class Site {
     return sites.find(({name}: { name: string }) => name === siteName)
   }
 
-  async findOrCreate() {
+  async findOrCreate(): Promise<any> {
     const siteName = await this.name()
     let site = await this.findSite()
     if (site) {
@@ -70,7 +70,7 @@ export default class Site {
     return d.url
   }
 
-  async checkDeploy(url: string, selector: string) {
+  async checkDeploy(url: string, selector: string): Promise<void> {
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
     await page.goto(url)
@@ -78,10 +78,11 @@ export default class Site {
     await browser.close()
   }
 
-  async delete() {
+  async delete(): Promise<void> {
     const siteName = await this.name()
     const site = await this.findSite()
     if (site) {
+      /* eslint-disable camelcase */
       await this.netlify.deleteSite({site_id: site.id})
       this.debug('Site deleted:', site.url)
     } else {
