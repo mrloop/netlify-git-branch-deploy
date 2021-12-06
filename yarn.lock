@@ -1614,10 +1614,10 @@
     is-wsl "^2.1.1"
     tslib "^2.0.0"
 
-"@oclif/core@0.5":
-  version "0.5.41"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-0.5.41.tgz#54ab600b1b6017f3849e629401eafd4f4e3a5c2e"
-  integrity sha512-zEYbpxSQr80t7MkLMHOmZr8QCrCIbVrI7fLSZWlsvD2AEM0vvzuhWymjo9/kHy2/kNfxwu7NTI4i2a0zoHu11w==
+"@oclif/core@0.6":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-0.6.0.tgz#85c341cddac0419b1b1c3172cb4f76277a87fd2a"
+  integrity sha512-pKCGuQoLdz9zY17slvVjPSvXlbyDoB0llPK+LIL4kELwpoOJ1Y52+00wIoD9B8xxPeQW9Cnavj1IHeKQes5ziw==
   dependencies:
     "@oclif/linewrap" "^1.0.0"
     chalk "^4.1.0"
