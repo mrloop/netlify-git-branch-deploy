@@ -24,6 +24,7 @@ export default class Site {
       const {stdout} = await execa('git', ['branch', '--show-current'])
       branchName = stdout.trim()
     }
+
     return branchName?.replace(/[./]/g, '-') || ''
   }
 
@@ -56,6 +57,7 @@ export default class Site {
       site = await this.netlify.createSite({body: {name: siteName}})
       this.debug('Site created:', site.url)
     }
+
     return site
   }
 
@@ -74,7 +76,7 @@ export default class Site {
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
     await page.goto(url)
-    await page.waitForSelector(selector, {timeout: 10000})
+    await page.waitForSelector(selector, {timeout: 10_000})
     await browser.close()
   }
 
