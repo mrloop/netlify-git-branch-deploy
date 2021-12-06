@@ -12,18 +12,18 @@ describe('commands', () => {
       console.log(`(after hook) ${msg}`, ...args)
     }).delete()
   })
-
   describe('deploy', () => {
     test
     .stderr({print: true})
     .command(['deploy', name, '--dir', 'test/dist'])
-    .it('runs deploy cmd', ctx => {
+    .it('runs deploy cmd', (ctx, done) => {
       let regex = new RegExp(`Site not found: test-${str}-.*`)
       expect(ctx.stderr).to.match(regex)
       regex = new RegExp(`Site created: http://test-${str}-.*.netlify.app`)
       expect(ctx.stderr).to.match(regex)
       regex = new RegExp(`Deployed: http://test-${str}-.*.netlify.app`)
       expect(ctx.stderr).to.match(regex)
+      done()
     })
   })
 
@@ -31,8 +31,9 @@ describe('commands', () => {
     test
     .stderr({print: true})
     .command(['delete', name])
-    .it('runs delete cmd', ctx => {
+    .it('runs delete cmd', (ctx, done) => {
       expect(ctx.stderr).to.match(new RegExp(`Site deleted: http://test-${str}-.*.netlify.app`))
+      done()
     })
   })
 })
