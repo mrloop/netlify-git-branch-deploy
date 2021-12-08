@@ -8,7 +8,7 @@ describe('commands', () => {
   describe('deploy', () => {
     test
     .stderr({print: true})
-    .command(['deploy', name, '--dir', 'test/dist'])
+    .command(['deploy', name, '--dir', 'test/dist', '--assert', '.test-class'])
     .it('runs deploy cmd', ctx => {
       let regex = new RegExp(`Site not found: test-${str}-.*`)
       expect(ctx.stderr).to.match(regex)
