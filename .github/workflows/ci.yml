@@ -12,6 +12,7 @@ on:
 
 jobs:
   Test:
+    concurrency: 'netlify-git-branch-github-workflow'
     name: Test
     runs-on: ubuntu-latest
 
