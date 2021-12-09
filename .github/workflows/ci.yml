@@ -12,7 +12,7 @@ on:
 
 jobs:
   Test:
-    concurrency: 'netlify-git-branch-github-workflow'
+    concurrency: ${{ github.ref }}
     name: Test
     runs-on: ubuntu-latest
 
