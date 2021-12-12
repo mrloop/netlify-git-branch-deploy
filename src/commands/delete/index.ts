@@ -10,7 +10,7 @@ export default class Delete extends Command {
     {name: 'name', description: nameDescription, required: true},
   ];
 
-  async run() {
+  async run(): Promise<void> {
     const {args} = await this.parse(Delete)
     const site = new Site(args.name, this.debug)
     await site.delete()

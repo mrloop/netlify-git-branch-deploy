@@ -7,5 +7,6 @@ declare module 'netlify-cli/src/utils/deploy/deploy-site.js';
 // But build isn't finding GotEmitter or GotOptions
 declare module 'got' {
   export interface GotEmitter {}
+  /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
   export interface GotOptions<E extends string | null> {}
 }
