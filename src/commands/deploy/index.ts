@@ -28,6 +28,7 @@ export default class Deploy extends Command {
     if (flags.assert) {
       await site.checkDeploy(url, flags.assert)
     }
+
     this.debug('Deployed:', url)
   }
 }
