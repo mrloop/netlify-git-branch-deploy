@@ -13,7 +13,7 @@
     "execa": "5.1.1",
     "netlify": "9.0.0",
     "netlify-cli": "8.0.15",
-    "puppeteer": "13.0.0"
+    "puppeteer": "13.0.1"
   },
   "devDependencies": {
     "@oclif/test": "2.0.3",
