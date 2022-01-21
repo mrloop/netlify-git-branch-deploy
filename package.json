@@ -19,7 +19,7 @@
     "@oclif/test": "2.0.3",
     "@types/chai": "4.3.0",
     "@types/execa": "2.0.0",
-    "@types/mocha": "9.0.0",
+    "@types/mocha": "9.1.0",
     "@types/node": "16.11.21",
     "chai": "4.3.4",
     "eslint": "7.32.0",
