@@ -1296,11 +1296,6 @@
     "@netlify/local-functions-proxy-win32-ia32" "1.1.1"
     "@netlify/local-functions-proxy-win32-x64" "1.1.1"
 
-"@netlify/open-api@^2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.6.0.tgz#128c8d66ac8798e9f60824ca9857735c368090b6"
-  integrity sha512-VfYLiEXJIVIn25wrwNB/O+QkM3xPgCVcGSKZxM/i+oPCOgBK+4PEieRtfqhF4vXXwwOi68VaRWU7P3aRnb3nIA==
-
 "@netlify/open-api@^2.8.0":
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.8.0.tgz#e59537ae9aa8342c2aa64952d42e5e089c8422f4"
@@ -8408,20 +8403,7 @@ netlify-redirector@^0.2.1:
   resolved "https://registry.yarnpkg.com/netlify-redirector/-/netlify-redirector-0.2.1.tgz#efdb761ea2c52edb3ecb5f237db0e10861f2ff0e"
   integrity sha512-17vDR9p1Loanp+vd57y+b6WlKb5X+qb0LZ44oTYsKJbdonz4Md+Ybv1lzH1w1aKm5YWWXHR8LMpWyY9bjlAJKw==
 
-netlify@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-9.0.0.tgz#d7f84a2c85d9cf81d84b94bedc9159856324ed4b"
-  integrity sha512-3QQpmCFSdCgsUEBLULwNxVojjFgYgooKhHtJ9OgjizzwJsNDYnBdAWKQ3lcpPX2etQ0quWJg5Uv8md02LuezZw==
-  dependencies:
-    "@netlify/open-api" "^2.6.0"
-    lodash.camelcase "^4.3.0"
-    micro-api-client "^3.3.0"
-    node-fetch "^2.6.1"
-    omit.js "^2.0.2"
-    p-wait-for "^3.2.0"
-    qs "^6.9.6"
-
-netlify@^10.1.2:
+netlify@10.1.2, netlify@^10.1.2:
   version "10.1.2"
   resolved "https://registry.yarnpkg.com/netlify/-/netlify-10.1.2.tgz#11ab524f5b0344d3d304d99811eb0b0676a19427"
   integrity sha512-xm9WUbnHCLmoPjMiZ3AuH3sHIsCQ7Y/u+QobbU2RzL9deR3OQaK0E7nJDFhUraybtO8n/mjOWnDwxb0GKtBwFQ==
