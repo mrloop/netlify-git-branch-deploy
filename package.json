@@ -8,6 +8,7 @@
   },
   "bugs": "https://github.com/mrloop/netlify-git-branch/issues",
   "dependencies": {
+    "@oclif/command": "^1.8.16",
     "@oclif/core": "1.1",
     "@oclif/plugin-help": "5",
     "execa": "5.1.1",
