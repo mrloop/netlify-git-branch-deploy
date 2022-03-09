@@ -13,7 +13,7 @@
     "@oclif/plugin-help": "5",
     "execa": "5.1.1",
     "netlify": "9.0.0",
-    "netlify-cli": "8.14.1",
+    "netlify-cli": "8.19.3",
     "puppeteer": "13.1.2"
   },
   "devDependencies": {
