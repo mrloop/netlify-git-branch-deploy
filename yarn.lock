@@ -1044,10 +1044,10 @@
     is-wsl "^2.1.1"
     tslib "^2.3.1"
 
-"@oclif/core@1.13":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-1.13.0.tgz#65a0f6e2b4d939f654d484607b45e821146c40b5"
-  integrity sha512-/cn36jfnjUxodiJZEGHtGKkUAD15qeHHBC/+FiPkKQYAvGtcht3XRL3wDidOkp3awotN6DzxhHOu5ZrDKowmTQ==
+"@oclif/core@1.14":
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-1.14.2.tgz#c6e4873f3ffde81a771d06e86c8e5bdfb189dbf2"
+  integrity sha512-Q16f/1FUPrtEYDyGYtuzNDZ3Q3RxYCHOnm9YJRg2VwSVqPOOo2Geoxh6Clo8cgin5NlFgs1wZEH+m+ABPr+RqA==
   dependencies:
     "@oclif/linewrap" "^1.0.0"
     "@oclif/screen" "^3.0.2"
