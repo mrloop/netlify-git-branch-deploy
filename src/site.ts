@@ -68,6 +68,7 @@ export default class Site {
     const {deploy: d} = await deploySite(this.netlify, id, folder, {
       message,
       filter: () => true,
+      rootDir: folder,
     })
     return d.url
   }
