@@ -1105,7 +1105,7 @@
     widest-line "^3.1.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^1.18.0", "@oclif/core@^1.19.1":
+"@oclif/core@^1.19.1":
   version "1.19.2"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-1.19.2.tgz#847b1c502ff8a91b834b8c893f0942a5d95e3b64"
   integrity sha512-n5ni/NNR6+I0IQXVGoLKdrdw6IS3WH/R/hw6WX8ERfLMZACrNSuJFD9EmBZkztyRkmiQ2L06ULazW5bJn5Shog==
@@ -9014,12 +9014,12 @@ object.pick@^1.3.0:
   dependencies:
     isobject "^3.0.1"
 
-oclif@3.2.23:
-  version "3.2.23"
-  resolved "https://registry.yarnpkg.com/oclif/-/oclif-3.2.23.tgz#0aecb918cffa23b3895fb9ebf59fb4fb1e00687e"
-  integrity sha512-z22n4J+K/z50EndIkNWVVOgwmo9wvmUdhe5ZbTCM2qv8ElSejuZNQ6FjoRkitD86ueNB3ANdq9TwyV2X3dU7XQ==
+oclif@3.2.24:
+  version "3.2.24"
+  resolved "https://registry.yarnpkg.com/oclif/-/oclif-3.2.24.tgz#95bdb8285c590da6927152133af63e241fbe8ec3"
+  integrity sha512-vzcbfIHeGPb5WnV7DPczoIPvBe0Xp/P6ArR28sSKySkg6/SkDMzdD9IfmsyovvaqrBCDTNgw0yvMbuncCQlIdA==
   dependencies:
-    "@oclif/core" "^1.18.0"
+    "@oclif/core" "^1.20.0"
     "@oclif/plugin-help" "^5.1.16"
     "@oclif/plugin-not-found" "^2.3.6"
     "@oclif/plugin-warn-if-update-available" "^2.0.6"
