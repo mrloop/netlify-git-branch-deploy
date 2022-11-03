@@ -33,7 +33,7 @@
     "release-it": "15.5.0",
     "release-it-lerna-changelog": "5.0.0",
     "ts-node": "10.9.1",
-    "tslib": "2.4.0",
+    "tslib": "2.4.1",
     "typescript": "4.8.4"
   },
   "publishConfig": {
