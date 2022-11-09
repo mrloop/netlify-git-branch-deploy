@@ -1227,13 +1227,13 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-3.0.2.tgz#969054308fe98d130c02844a45cc792199b75670"
   integrity sha512-S/SF/XYJeevwIgHFmVDAFRUvM3m+OjhvCAYMk78ZJQCYCQ5wS7j+LTt1ZEv2jpEEGg2tx/F6TYYWxddNAYHrFQ==
 
-"@oclif/test@2.2.8":
-  version "2.2.8"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.2.8.tgz#c4114922428f90f94e3775b596876a88830a91c2"
-  integrity sha512-VPVR1XLiTYqKToXlU7TPRnp5WMZvzfjyyPDH2sqKVCuEj9ZdEsK8m4woTK1n9aX1HI1Yv0tyyvg2a8HbUJOwhw==
+"@oclif/test@2.2.9":
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.2.9.tgz#68bc529887d9947d0dabc8b769155fa6f5f1c31b"
+  integrity sha512-E7MawhLwxJqmIGudkN5zZZSAgMVtRXuSytGgQJtCPPTphEIVeFHa1ZQv+Kfu+GmDrBOq4bR3bj6NmKaB7Y34uw==
   dependencies:
     "@oclif/core" "^1.20.0"
-    fancy-test "^2.0.5"
+    fancy-test "^2.0.6"
 
 "@octokit/auth-token@^2.4.4":
   version "2.5.0"
@@ -4909,10 +4909,10 @@ extract-zip@2.0.1:
   optionalDependencies:
     "@types/yauzl" "^2.9.1"
 
-fancy-test@^2.0.5:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-2.0.6.tgz#e8ac4e652214dd0424a44e8e8a684d70897cdef4"
-  integrity sha512-vzH5MOYK+vAQW/jnRnBiyASemIOAmSYuh2j12w4Ktzh+u2d69OENvI9GLDvNLMxOIqCtwz8ndLMH+5cJHfBmSQ==
+fancy-test@^2.0.6:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-2.0.7.tgz#a5e8e23113384c5550914da4f429d10822622521"
+  integrity sha512-E9qiHMi/Wf3y0PLwoRbgr8SRTcvQY+6gx9d/qaVNT6N5AQ79iZr08ftY2Ki5KRC5LS02GoVD/CYT4t/KwwC/Pw==
   dependencies:
     "@types/chai" "*"
     "@types/lodash" "*"
