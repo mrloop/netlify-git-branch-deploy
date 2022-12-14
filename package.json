@@ -8,9 +8,9 @@
   },
   "bugs": "https://github.com/mrloop/netlify-git-branch/issues",
   "dependencies": {
-    "@oclif/command": "^1.8.16",
-    "@oclif/core": "1.20",
-    "@oclif/plugin-help": "5",
+    "@oclif/command": "1.8.20",
+    "@oclif/core": "1.21.0",
+    "@oclif/plugin-help": "5.1.20",
     "execa": "5.1.1",
     "netlify": "9.0.0",
     "netlify-cli": "10.18.0",
@@ -21,23 +21,27 @@
     "@types/chai": "4.3.4",
     "@types/execa": "2.0.0",
     "@types/mocha": "9.1.1",
-    "@types/node": "16.18.3",
+    "@types/node": "18.11.15",
+    "@typescript-eslint/eslint-plugin": "5.48.0",
     "chai": "4.3.7",
-    "eslint": "7.32.0",
+    "eslint": "8.29.0",
     "eslint-config-oclif": "4.0.0",
     "eslint-config-oclif-typescript": "1.0.3",
     "eslint-plugin-json": "3.1.0",
     "globby": "11.1.0",
     "mocha": "10.0.0",
-    "oclif": "3.2.27",
+    "oclif": "3.4.2",
     "release-it": "15.5.0",
     "release-it-lerna-changelog": "5.0.0",
     "ts-node": "10.9.1",
     "tslib": "2.4.1",
-    "typescript": "4.8.4"
+    "typescript": "4.5.5"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
+  },
+  "resolutions": {
+    "eslint-plugin-unicorn": "45.0.2"
   },
   "release-it": {
     "plugins": {
