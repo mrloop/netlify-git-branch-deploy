@@ -9,7 +9,7 @@
   "bugs": "https://github.com/mrloop/netlify-git-branch/issues",
   "dependencies": {
     "@oclif/command": "1.8.20",
-    "@oclif/core": "1.21.0",
+    "@oclif/core": "1.23.1",
     "@oclif/plugin-help": "5.1.22",
     "execa": "5.1.1",
     "netlify": "9.0.0",
