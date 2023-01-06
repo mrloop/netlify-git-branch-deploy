@@ -3475,6 +3475,16 @@ cosmiconfig@7.0.1:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
+cosmiconfig@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-8.0.0.tgz#e9feae014eab580f858f8a0288f38997a7bebe97"
+  integrity sha512-da1EafcpH6b/TD8vDRaWV7xFINlHlF6zKsGwS1TsuVJTZRkquaS5HTMq7uq6h31619QjbsYl21gVDOm32KM1vQ==
+  dependencies:
+    import-fresh "^3.2.1"
+    js-yaml "^4.1.0"
+    parse-json "^5.0.0"
+    path-type "^4.0.0"
+
 cp-file@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/cp-file/-/cp-file-7.0.0.tgz#b9454cfd07fe3b974ab9ea0e5f29655791a9b8cd"
@@ -3945,10 +3955,10 @@ detective-typescript@^9.0.0:
     node-source-walk "^5.0.0"
     typescript "^4.5.5"
 
-devtools-protocol@0.0.981744:
-  version "0.0.981744"
-  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.981744.tgz#9960da0370284577d46c28979a0b32651022bacf"
-  integrity sha512-0cuGS8+jhR67Fy7qG3i3Pc7Aw494sb9yG9QgpG97SFVWwolgYjlhJg7n+UaHxOQT30d1TYu/EYe9k01ivLErIg==
+devtools-protocol@0.0.1068969:
+  version "0.0.1068969"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1068969.tgz#8b9a4bc48aed1453bed08d62b07481f9abf4d6d8"
+  integrity sha512-ATFTrPbY1dKYhPPvpjtwWKSK2mIwGmRwX54UASn9THEuIZCe2n9k3vVuMmt6jWeL+e5QaaguEv/pMyR+JQB7VQ==
 
 dezalgo@^1.0.0:
   version "1.0.4"
@@ -9367,7 +9377,7 @@ pinkie@^2.0.0:
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==
 
-pkg-dir@4.2.0, pkg-dir@^4.2.0:
+pkg-dir@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
   integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
@@ -9638,23 +9648,32 @@ pupa@^3.1.0:
   dependencies:
     escape-goat "^4.0.0"
 
-puppeteer@13.7.0:
-  version "13.7.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-13.7.0.tgz#18e16f83e397cf02f7a0804c67c1603d381cfb0b"
-  integrity sha512-U1uufzBjz3+PkpCxFrWzh4OrMIdIb2ztzCu0YEPfRHjHswcSwHZswnK+WdsOQJsRV8WeTg3jLhJR4D867+fjsA==
+puppeteer-core@19.4.1:
+  version "19.4.1"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-19.4.1.tgz#f4875943841ebdb6fc2ad7a475add958692b0237"
+  integrity sha512-JHIuqtqrUAx4jGOTxXu4ilapV2jabxtVMA/e4wwFUMvtSsqK4nVBSI+Z1SKDoz7gRy/JUIc8WzmfocCa6SIZ1w==
   dependencies:
     cross-fetch "3.1.5"
     debug "4.3.4"
-    devtools-protocol "0.0.981744"
+    devtools-protocol "0.0.1068969"
     extract-zip "2.0.1"
     https-proxy-agent "5.0.1"
-    pkg-dir "4.2.0"
-    progress "2.0.3"
     proxy-from-env "1.1.0"
     rimraf "3.0.2"
     tar-fs "2.1.1"
     unbzip2-stream "1.4.3"
-    ws "8.5.0"
+    ws "8.11.0"
+
+puppeteer@19.4.1:
+  version "19.4.1"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-19.4.1.tgz#cac7d3f0084badebb8ebacbe6f4d7262e7f21818"
+  integrity sha512-PCnrR13B8A+VSEDXRmrNXRZbrkF1tfsI1hKSC7vs13eNS6CUD3Y4FA8SF8/VZy+Pm1kg5AggJT2Nu3HLAtGkFg==
+  dependencies:
+    cosmiconfig "8.0.0"
+    https-proxy-agent "5.0.1"
+    progress "2.0.3"
+    proxy-from-env "1.1.0"
+    puppeteer-core "19.4.1"
 
 qs@6.11.0, qs@^6.9.6:
   version "6.11.0"
@@ -11937,10 +11956,10 @@ write-file-atomic@^4.0.0:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.7"
 
-ws@8.5.0:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
-  integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
+ws@8.11.0:
+  version "8.11.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.11.0.tgz#6a0d36b8edfd9f96d8b25683db2f8d7de6e8e143"
+  integrity sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==
 
 xdg-basedir@^4.0.0:
   version "4.0.0"
