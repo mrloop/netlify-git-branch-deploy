@@ -10,7 +10,7 @@
   "dependencies": {
     "@oclif/command": "1.8.20",
     "@oclif/core": "1.21.0",
-    "@oclif/plugin-help": "5.1.20",
+    "@oclif/plugin-help": "5.1.22",
     "execa": "5.1.1",
     "netlify": "9.0.0",
     "netlify-cli": "10.18.0",
