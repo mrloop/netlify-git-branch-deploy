@@ -1,6 +1,4 @@
 import {expect, test} from '@oclif/test'
-// eslint disable needed for node 14. node protocol works after 14.13 but linting fails
-/* eslint-disable-next-line node/no-missing-import */
 import * as crypto from 'node:crypto'
 
 const str = crypto.randomBytes(2).toString('hex')
