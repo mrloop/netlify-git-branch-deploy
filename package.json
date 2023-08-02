@@ -17,7 +17,7 @@
     "puppeteer": "19.6.3"
   },
   "devDependencies": {
-    "@oclif/test": "2.2.20",
+    "@oclif/test": "2.4.2",
     "@types/chai": "4.3.4",
     "@types/execa": "2.0.0",
     "@types/mocha": "10.0.1",
