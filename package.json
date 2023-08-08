@@ -41,7 +41,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "resolutions": {
-    "eslint-plugin-unicorn": "45.0.2"
+    "eslint-plugin-unicorn": "48.0.1"
   },
   "release-it": {
     "plugins": {
