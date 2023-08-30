@@ -21,7 +21,7 @@
     "@types/chai": "4.3.5",
     "@types/execa": "2.0.0",
     "@types/mocha": "10.0.1",
-    "@types/node": "18.17.3",
+    "@types/node": "18.17.11",
     "@typescript-eslint/eslint-plugin": "6.3.0",
     "chai": "4.3.7",
     "eslint": "8.31.0",
@@ -59,7 +59,7 @@
     }
   },
   "volta": {
-    "node": "18.17.0",
+    "node": "18.17.1",
     "yarn": "1.22.19"
   },
   "engines": {
