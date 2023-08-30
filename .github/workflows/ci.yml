@@ -12,7 +12,6 @@ on:
 
 jobs:
   Test:
-    concurrency: ${{ github.ref }}
     name: Test
     runs-on: ubuntu-latest
 
