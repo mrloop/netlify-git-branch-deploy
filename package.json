@@ -22,7 +22,7 @@
     "@types/execa": "2.0.0",
     "@types/mocha": "10.0.3",
     "@types/node": "18.18.7",
-    "@typescript-eslint/eslint-plugin": "6.7.4",
+    "@typescript-eslint/eslint-plugin": "6.9.0",
     "chai": "4.3.10",
     "eslint": "8.31.0",
     "eslint-config-oclif": "4.0.0",
